@@ -11,6 +11,13 @@ public class Job {
     private Long id;
     private String title;
 
+    private String description;
+    private String minSalary;
+    private String maxSalary;
+    private String location;
+
+    private Long companyId;
+
     public Job() {
     }
 
@@ -71,12 +78,7 @@ public class Job {
         this.location = location;
     }
 
-    private String description;
-    private String minSalary;
-    private String maxSalary;
-    private String location;
 
-    private Long companyId;
 
     public Long getCompanyId() {
         return companyId;
